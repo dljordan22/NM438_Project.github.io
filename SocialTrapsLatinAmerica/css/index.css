@@ -1,0 +1,550 @@
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+
+@font-face {
+    font-family: AvenirLight;
+    src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
+}
+
+@font-face {
+    font-family: AvenirRoman;
+    src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
+}
+
+@font-face {
+    font-family: AvenirBook;
+    src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
+}
+
+html {
+    height:100%;
+    width:100%;
+    
+}
+
+body {
+    height:100%;
+    width:100%;
+	background: #c5cec2;
+	margin: 0px auto;
+}
+
+.home {
+    
+    margin:0;
+    padding:0;
+    position:relative;
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:cover;
+    background-attachment:fixed;
+    z-index:0;
+}
+
+.home a {
+    transition:all linear 0.15s;
+    text-decoration:none;
+    color:white;
+    z-index:1;
+}
+
+.home a:hover {
+    -webkit-filter: blur(0px);
+    -webkit-animation: fadein linear .3s;
+}
+
+#enterheader {
+    font-family: AvenirRoman, arial, futura;
+    position:relative;
+    z-index:1;
+    margin-left: auto;
+    margin-right:auto;
+    height:100%;
+    width:100%;
+    padding:0em;
+    background-color: transparent;
+    
+}
+
+#pagetitle {
+    font-family: AvenirRoman, arial, futura;
+    position:relative;
+    z-index:1;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    color: transparent;
+    font-size:1.5em;
+    line-height:1em;
+    padding-top:1em;
+    padding-bottom:1em;
+    left:0;
+    background-color: transparent;
+    color:white;
+    text-align:center;
+}
+
+#entermenu {
+    font-family: AvenirRoman, arial, futura;
+    z-index:1;
+    line-height:2em;
+    
+}
+
+/* text container */
+.statement {
+    font-family: AvenirRoman, arial, futura;
+    z-index:1;
+    position:relative;
+    width:70%;
+    top:3em;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+p {
+    font-size:1em;
+    font-family: AvenirRoman, arial, futura;
+    color: #fff;
+    text-align: center;
+    /*line-height: 1.1em;*/
+}
+
+#more p a {
+    color:black;
+    text-decoration: none;
+    width:100%;
+}
+
+   @-webkit-keyframes fadein {
+   0% {    -webkit-filter: blur(10px);}
+  28% { -webkit-filter: blur(10px);}
+ 100% {  -webkit-filter: blur(0px);}
+}
+
+/*----- ENTER DROP DOWN MENU -----*/
+
+#more {
+	background-repeat: no-repeat;
+	background: #c5cec2;
+    font-family: AvenirRoman, arial, futura;
+    position:relative;
+    z-index:1;
+    width:100%;
+    text-align: center;
+    color: white;
+    line-height:1em;
+    padding:0em;
+    top:3em;
+    left:0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:1.8em;
+    
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#more ul > li:hover #dropdown-content {
+    opacity:1; 
+    list-style:none;
+}
+
+#dropdown-content {
+    z-index:0;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    background:transparent;
+    text-align: center;
+    -webkit-filter:blur(0px);
+    -webkit-transition: all .3s ease-in;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0em;
+    line-height: 2em;
+    top:0em;
+    left:0em;
+    width:100%;
+    overflow:hidden;
+    height:3em;
+    -moz-transition:all 0.6s ease-in-out 0s;
+    -webkit-transition:all 0.6s ease-in-out 0s;
+}
+
+#dropdown-content li {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    padding:0em;
+    z-index:0;
+    
+}
+
+#dropdown-content li a {
+    display:block;
+    text-decoration:none;
+    -webkit-transition: all .3s ease-out;
+    z-index:0;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    list-style:none;
+    
+}
+
+#dropdown-content li a:hover, #dropdown-content .current-item a {
+    background:transparent;
+    -webkit-filter: blur(0px);
+    -webkit-animation: fadein linear .3s;
+    list-style:none;
+    
+}
+
+#more li {
+}
+
+#more a {
+    transition:all linear 0.15s;
+    /*background-color:transparent;*/
+}
+
+#more li:hover > a, #more .current-item > a {
+    text-decoration:none;
+    color:black;
+    list-style:none;
+}
+
+#more > ul > li {
+    display:inline-block;
+    position:relative;
+    width:100%;
+    
+}
+
+#more > ul > li > a {
+    list-style:none;
+    display:inline-block;
+    width:100%;
+    color:white;
+}
+
+#more > ul > li:hover > a, #more > ul > .current-item > a {
+    list-style:none;
+    /*background-color:transparent;*/
+}
+
+/*----- FIN -----*/
+
+
+
+
+
+
+
+#about {
+	height: 150px;
+	width: 100%;
+	/*background: url("../images/latinamericastock.png");*/
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background: #c5cec2;
+	opacity: 0;
+}
+
+#whatit {
+	height: 150px;
+	width: 100%;
+	/*background: url("../images/latinamericastock.png");*/
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background: #c5cec2;
+	opacity: 0;
+}
+
+#possible {
+	height: 150px;
+	width: 100%;
+	/*background: url("../images/latinamericastock.png");*/
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background: #c5cec2;
+	opacity: 0;
+}
+
+#measures {
+	height: 150px;
+	width: 100%;
+	/*background: url("../images/latinamericastock.png");*/
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background: #c5cec2;
+	opacity: 0;
+}
+
+#economics {
+	height: 150px;
+	width: 100%;
+	/*background: url("../images/latinamericastock.png");*/
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background: #c5cec2;
+	opacity: 0;
+}
+
+#container {
+	height: 150px;
+	width: 100%;
+	background: #fff;
+}
+
+#minicontainer1 {
+	height: 150px;
+	width: 50%;
+	background: #c5cec2;
+	float: left;
+}
+
+#minicontainer2 {
+	height: 150px;
+	width: 50%;
+	background: #fff;
+	float: right;
+}
+
+
+
+/**********************************************************/
+#section1 {
+	height: 150px;
+	width: 50%;
+	float: left;
+	background: url("../images/latinamericaincomeinequality.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+#section2 {
+	height: 150px;
+	width: 50%;
+	float: right;
+	background: url("../images/latinamericaincomeinequality.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#section3 {
+	height: 150px;
+	width: 50%;
+	float: left;
+	background: url("../images/latinamericaincomeinequality.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#section4 {
+	height: 150px;
+	width: 50%;
+	float: right;
+	background: url("../images/latinamericaincomeinequality.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#section5 {
+	height: 150px;
+	width: 50%;
+	float: left;
+	background: url("../images/latinamericaincomeinequality.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#section6 {
+	height: 150px;
+	width: 50%;
+	float: right;
+	background: url("../images/latinamericaincomeinequality.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#section7 {
+	height: 150px;
+	width: 50%;
+	float: left;
+	background: url("../images/latinamericaincomeinequality.png");
+}
+
+#section8 {
+	height: 150px;
+	width: 50%;
+	float: right;
+	background: url("../images/latinamericaincomeinequality.png");
+}
+
+#section9 {
+	height: 150px;
+	width: 50%;
+	float: left;
+	background: url("../images/latinamericaincomeinequality.png");
+
+}
+
+#header {
+	font-size: 100px;
+	color: #fff;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#text {
+	font-size: 30px;
+	color: #fff;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#smallerheader {
+	font-size: 40px;
+	color: #fff;
+text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+#smallertext {
+	font-size: 30px;
+	color: #fff;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+
+ul > li:hover #dropdown-content {
+    opacity:1;
+    list-style:none;
+}
+ 
+#dropdown-content {
+    position:absolute;
+    z-index:0;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    background:transparent;
+    text-align: center;
+    -webkit-filter:blur(0px);
+    -webkit-transition: all .3s ease-in;
+    margin:0;
+    padding:0;
+    line-height: 1.8em;
+    top:2em;
+    font-size:1em;
+    width:100%;
+    overflow:hidden;
+    height:10em;
+    -moz-transition:all 0.6s ease-in-out 0s;
+    -webkit-transition:all 0.6s ease-in-out 0s;
+    font-size:1em;
+}
+ 
+#dropdown-content li {
+    display:block;
+    margin:0;
+    padding:0;
+    z-index:0;
+    
+}
+ 
+#dropdown-content li a {
+    display:block;
+    text-decoration:none;
+    -webkit-transition: all .3s ease-out;
+    z-index:0;
+}
+ 
+#dropdown-content li a:hover, #dropdown-content .current-item a {
+    background:transparent;
+    -webkit-filter: blur(0px);
+    -webkit-animation: fadein linear .3s;
+    
+}
+
+
+
+
+#about:hover {
+	
+}
+
+#section1:hover {
+	opacity: .9;
+	height: 250px;
+}
+
+#section2:hover {
+	opacity: .5;
+	height: 250px;
+}
+
+#section3:hover {
+	opacity: .5;
+	height: 250px;
+}
+
+#section4:hover {
+	opacity: .5;
+	height: 250px;
+}
+
+#section5:hover {
+	opacity: .5;
+	height: 250px;
+}
+
+#section6:hover {
+	opacity: .5;
+	height: 250px;
+}
+
+#section7:hover {
+	opacity: .5;
+	height: 250px;
+}
+
+#section8:hover {
+	opacity: .5;
+	height: 250px;
+}
+
+#section9:hover {
+	opacity: .5;
+	height: 250px;
+}
