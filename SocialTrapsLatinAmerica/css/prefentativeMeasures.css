@@ -1,10 +1,25 @@
 body {
-	background: #c5cec2;
+	background: #ccc;
 	margin: 0px auto;
 }
 
+@font-face {
+    font-family: AvenirLight;
+    src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
+}
+
+@font-face {
+    font-family: AvenirRoman;
+    src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
+}
+
+@font-face {
+    font-family: AvenirBook;
+    src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
+}
+
 #head {
-	height: 550px;
+	height: 1500px;
 	width: 100%;
 	background: #5b97f7;
 	margin: 0px auto;
@@ -118,7 +133,7 @@ body {
 }
 
 #header {
-	font-size: 115px;
+	font-size: 80px;
 	font-family: 'Fjalla One', sans-serif;
 	color: #fff;
 	text-shadow:
