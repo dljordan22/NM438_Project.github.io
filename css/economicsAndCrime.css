@@ -5,22 +5,22 @@ body {
 
 @font-face {
     font-family: AvenirLight;
-    src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
+    src: url(/fonts/AvenirLTStd-Light.otf);
 }
 
 @font-face {
     font-family: AvenirRoman;
-    src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
+    src: url(/fonts/AvenirLTStd-Light.otf);
 }
 
 @font-face {
     font-family: AvenirBook;
-    src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
+    src: url(/fonts/AvenirLTStd-Light.otf);
 }
 
 @font-face {
     font-family: Helvetica;
-    src: url(/SocialTrapsLatinAmerica/fonts/Helvetica.dfont);
+    src: url(/fonts/Helvetica.dfont);
 }
 
 #head {

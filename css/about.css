@@ -1,27 +1,118 @@
-body {
-	background: #c5cec2;
-	margin: 0px auto;
-}
-
 @font-face {
     font-family: AvenirLight;
-    src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
+    src: url(/fonts/AvenirLTStd-Light.otf);
 }
 
 @font-face {
     font-family: AvenirRoman;
-    src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
+    src: url(/fonts/AvenirLTStd-Light.otf);
 }
 
 @font-face {
     font-family: AvenirBook;
-    src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
+    src: url(/fonts/AvenirLTStd-Light.otf);
 }
 
 @font-face {
     font-family: Helvetica;
-    src: url(/SocialTrapsLatinAmerica/fonts/Helvetica.dfont);
+    src: url(/fonts/Helvetica.dfont);
 }
+
+html {
+    height:100%;
+    width:100%;
+    
+}
+
+body {
+    height:100%;
+    width:100%;
+	background: #c5cec2;
+	margin: 0px auto;
+}
+
+.home {
+    
+    margin:0;
+    padding:0;
+    position:relative;
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:cover;
+    background-attachment:fixed;
+    z-index:0;
+}
+
+.home a {
+    transition:all linear 0.15s;
+    text-decoration:none;
+    color:white;
+    z-index:1;
+}
+
+.home a:hover {
+    -webkit-filter: blur(0px);
+    -webkit-animation: fadein linear .3s;
+}
+
+#enterheader {
+    font-family: Helvetica, AvenirRoman, arial, futura;
+    position:relative;
+    z-index:1;
+    margin-left: auto;
+    margin-right:auto;
+    height:100%;
+    width:100%;
+    padding:0em;
+    background-color: transparent;
+    
+}
+
+#pagetitle {
+    font-family: Helvetica, AvenirRoman, arial, futura;
+    position:relative;
+    z-index:1;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    color: transparent;
+    font-size:1.5em;
+    line-height:1em;
+    padding-top:1em;
+    padding-bottom:1em;
+    left:0;
+    background-color: transparent;
+    color:white;
+    text-align:center;
+    font-weight: 100;
+}
+
+/* text container */
+.statement {
+    font-family: Helvetica, AvenirRoman, arial, futura;
+    z-index:1;
+    position:relative;
+    width:70%;
+    top:3em;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+p {
+    font-size:1em;
+    font-family: Helvetica, AvenirRoman, arial, futura;
+    color: #fff;
+    text-align: center;
+    /*line-height: 1.1em;*/
+    font-weight: 100;
+}
+
+/* --------------------------------------- */
 
 #head {
 	height: 650px;
@@ -42,10 +133,6 @@ body {
 #headcontainer {
 height: 650px;
 width: 100%;
-}
-
-#aboutcontainer{
-
 }
 
 #container {
