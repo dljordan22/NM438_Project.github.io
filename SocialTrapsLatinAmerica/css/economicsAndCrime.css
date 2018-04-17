@@ -1,5 +1,5 @@
 body {
-	background: #c5cec2;
+	background: url("../images/Guatemala4.jpg");
 	margin: 0px auto;
 }
 
@@ -21,7 +21,9 @@ body {
 #head {
 	height: 100%;
 	width: 100%;
-	background: #c5cec2;
+	background: url("../images/Guatemala4.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 	margin: 0px auto;
 }
 
@@ -132,6 +134,19 @@ body {
 
 }
 
+p {
+	font-size: 35px;
+	font-family: AvenirRoman, arial, futura;
+	color: #fff;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+    margin: 5%;
+    line-height: 50px;
+}
+
 #header {
 	font-size: 80px;
 	font-family: AvenirRoman, arial, futura;
@@ -148,10 +163,10 @@ body {
 	font-family: 'Fjalla One', sans-serif;
 	color: #fff;
 	text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;  
 }
 
 #smallerheader {

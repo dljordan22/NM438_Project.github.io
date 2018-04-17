@@ -1,5 +1,7 @@
 body {
-	background: #c5cec2;
+	background: url(../images/Brazil.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 	margin: 0px auto;
 }
 
@@ -134,8 +136,21 @@ body {
 
 }
 
+p {
+	font-size: 35px;
+	font-family: AvenirRoman, arial, futura;
+	color: #ddd;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+    margin: 5%;
+    line-height: 50px;
+}
+
 #header {
-	font-size: 120px;
+	font-size: 70px;
 	font-family: AvenirRoman, arial, futura;
 	color: #fff;
 	text-shadow:
