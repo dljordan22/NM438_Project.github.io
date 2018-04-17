@@ -1,12 +1,34 @@
 body {
-	background: #ccc;
+	background: url("../images/Guatemala4.jpg");
 	margin: 0px auto;
 }
 
+@font-face {
+    font-family: AvenirLight;
+    src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
+}
+
+@font-face {
+    font-family: AvenirRoman;
+    src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
+}
+
+@font-face {
+    font-family: AvenirBook;
+    src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(/SocialTrapsLatinAmerica/fonts/Helvetica.dfont);
+}
+
 #head {
-	height: 1500px;
+	height: 100%;
 	width: 100%;
-	background: #5b97f7;
+	background: url("../images/Guatemala4.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 	margin: 0px auto;
 }
 
@@ -117,9 +139,22 @@ body {
 
 }
 
+p {
+	font-size: 35px;
+	font-family: AvenirRoman, arial, futura;
+	color: #fff;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+    margin: 5%;
+    line-height: 50px;
+}
+
 #header {
 	font-size: 80px;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: AvenirRoman, arial, futura;
 	color: #fff;
 	text-shadow:
     -1px -1px 0 #000,
@@ -133,15 +168,15 @@ body {
 	font-family: 'Fjalla One', sans-serif;
 	color: #fff;
 	text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;  
 }
 
 #smallerheader {
-	font-size: 50px;
-	font-family: 'Fjalla One', sans-serif;
+	font-size: 45px;
+	font-family: AvenirRoman, arial, futura;
 	color: #fff;
 text-shadow:
     -1px -1px 0 #000,

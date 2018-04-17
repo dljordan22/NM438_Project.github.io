@@ -1,12 +1,43 @@
 body {
-	background: #ccc;
+	background: url("../images/Untitled-1.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 	margin: 0px auto;
 }
 
+@font-face {
+    font-family: AvenirLight;
+    src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
+}
+
+@font-face {
+    font-family: AvenirRoman;
+    src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
+}
+
+@font-face {
+    font-family: AvenirBook;
+    src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(/SocialTrapsLatinAmerica/fonts/Helvetica.dfont);
+}
+
 #head {
-	height: 800px;
+	height: 50%;
 	width: 100%;
-	background: #5b97f7;
+	background: url("../images/Venezuala4.jpg");
+	background-repeat: no-repeat;
+	margin: 0px auto;
+}
+
+#head2 {
+	height: 50%;
+	width: 100%;
+	background: url("../images/Venezuala4.jpg");
+	background-repeat: no-repeat;
 	margin: 0px auto;
 }
 
@@ -117,9 +148,22 @@ body {
 
 }
 
+p {
+	font-size: 35px;
+	font-family: AvenirRoman, arial, futura;
+	color: #ddd;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+    margin: 5%;
+    line-height: 50px;
+}
+
 #header {
-	font-size: 135px;
-	font-family: 'Fjalla One', sans-serif;
+	font-size: 70px;
+	font-family: AvenirRoman, arial, futura;
 	color: #fff;
 	text-shadow:
     -1px -1px 0 #000,
@@ -130,7 +174,7 @@ body {
 
 #text {
 	font-size: 50px;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: AvenirRoman, arial, futura;
 	color: #fff;
 	text-shadow:
     -1px -1px 0 #000,
@@ -141,7 +185,7 @@ body {
 
 #smallerheader {
 	font-size: 50px;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: AvenirRoman, arial, futura;
 	color: #fff;
 text-shadow:
     -1px -1px 0 #000,
@@ -152,7 +196,7 @@ text-shadow:
 
 #smallertext {
 	font-size: 30px;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: AvenirRoman, arial, futura;
 	color: #fff;
 	text-shadow:
     -1px -1px 0 #000,

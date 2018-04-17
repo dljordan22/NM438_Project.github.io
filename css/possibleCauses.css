@@ -1,5 +1,5 @@
 body {
-	background: url("../images/Untitled-1.png");
+	background: url(../images/Brazil.jpg);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	margin: 0px auto;
@@ -20,20 +20,18 @@ body {
     src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
 }
 
-#head {
-	height: 50%;
-	width: 100%;
-	background: url("../images/Venezuala4.jpg");
-	background-repeat: no-repeat;
-	margin: 0px auto;
+@font-face {
+    font-family: Helvetica;
+    src: url(/SocialTrapsLatinAmerica/fonts/Helvetica.dfont);
 }
 
-#head2 {
-	height: 50%;
+#head {
+	height: 100%;
 	width: 100%;
-	background: url("../images/Venezuala4.jpg");
-	background-repeat: no-repeat;
+	background: #c5cec2;
 	margin: 0px auto;
+	text-align: center;
+	
 }
 
 #about {

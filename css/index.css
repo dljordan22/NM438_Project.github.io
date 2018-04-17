@@ -18,6 +18,11 @@
     src: url(/SocialTrapsLatinAmerica/fonts/AvenirLTStd-Light.otf);
 }
 
+@font-face {
+    font-family: Helvetica;
+    src: url(/SocialTrapsLatinAmerica/fonts/Helvetica.dfont);
+}
+
 html {
     height:100%;
     width:100%;
@@ -61,7 +66,7 @@ body {
 }
 
 #enterheader {
-    font-family: AvenirRoman, arial, futura;
+    font-family: Helvetica, AvenirRoman, arial, futura;
     position:relative;
     z-index:1;
     margin-left: auto;
@@ -74,7 +79,7 @@ body {
 }
 
 #pagetitle {
-    font-family: AvenirRoman, arial, futura;
+    font-family: Helvetica, AvenirRoman, arial, futura;
     position:relative;
     z-index:1;
     width:100%;
@@ -89,18 +94,19 @@ body {
     background-color: transparent;
     color:white;
     text-align:center;
+    font-weight: 100;
 }
 
 #entermenu {
-    font-family: AvenirRoman, arial, futura;
+    font-family: Helvetica, AvenirRoman, arial, futura;
     z-index:1;
     line-height:2em;
-    
+    font-weight: 100;
 }
 
 /* text container */
 .statement {
-    font-family: AvenirRoman, arial, futura;
+    font-family: Helvetica, AvenirRoman, arial, futura;
     z-index:1;
     position:relative;
     width:70%;
@@ -111,10 +117,11 @@ body {
 
 p {
     font-size:1em;
-    font-family: AvenirRoman, arial, futura;
+    font-family: Helvetica, AvenirRoman, arial, futura;
     color: #fff;
     text-align: center;
     /*line-height: 1.1em;*/
+    font-weight: 100;
 }
 
 #more p a {
@@ -134,7 +141,7 @@ p {
 #more {
 	background-repeat: no-repeat;
 	background: #c5cec2;
-    font-family: AvenirRoman, arial, futura;
+    font-family: Helvetica, AvenirRoman, arial, futura;
     position:relative;
     z-index:1;
     width:100%;
