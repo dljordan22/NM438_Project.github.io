@@ -21,7 +21,6 @@
 html {
     height:100%;
     width:100%;
-    
 }
 
 body {
@@ -29,11 +28,12 @@ body {
     width:100%;
 	background: #c5cec2;
 	margin: 0px auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     background: url("../images/Guatemala4.jpg");
 }
 
 .home {
-    
     margin:0;
     padding:0;
     position:relative;
@@ -229,19 +229,6 @@ p {
 	float: left;
 	background: url("../images/latinamericaincomeinequality.png");
 
-}
-
-p {
-	font-size: 35px;
-	font-family: AvenirRoman, arial, futura;
-	color: #fff;
-	text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  
-    margin: 5%;
-    line-height: 50px;
 }
 
 #header {
