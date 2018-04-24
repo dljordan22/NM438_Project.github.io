@@ -82,7 +82,7 @@ body {
     margin-left:auto;
     margin-right:auto;
     color: transparent;
-    font-size:1.5em;
+    font-size:2em;
     line-height:1em;
     padding-top:1em;
     padding-bottom:1em;
@@ -105,7 +105,7 @@ body {
 }
 
 p {
-    font-size:1em;
+    font-size:1.5em;
     font-family: Helvetica, AvenirRoman, arial, futura;
     color: #fff;
     text-align: center;
@@ -140,6 +140,60 @@ p {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	/*background: #888;*/
+}
+
+#textplusimage {
+	height: 30em;
+	width: 75em;
+
+}
+
+#image1 {
+	height: 100%;
+	width: 45%;
+	float: left;
+	background: url('../images/Brazil3.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#text1 {
+	height: 100%;
+	width: 45%;
+	float: right;
+	
+}
+
+#image2 {
+	height: 100%;
+	width: 45%;
+	float: right;
+	background: url('../images/Venezuala2.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#text2 {
+height: 100%;
+	width: 45%;
+	float: left;
+	
+}
+
+#image3 {
+	height: 100%;
+	width: 45%;
+	float: left;
+	background: url('../images/Argentina3.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#text3 {
+	height: 100%;
+	width: 45%;
+	float: right;
+	
 }
 
 #container {

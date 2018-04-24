@@ -105,7 +105,7 @@ body {
 }
 
 p {
-    font-size:1em;
+    font-size:2em;
     font-family: Helvetica, AvenirRoman, arial, futura;
     color: #fff;
     text-align: center;
@@ -132,6 +132,62 @@ p {
 	background-size: 100% 100%;
 	/*background: #888;*/
 }
+
+
+#textplusimage {
+	height: 30em;
+	width: 75em;
+
+}
+
+#image1 {
+	height: 100%;
+	width: 45%;
+	float: left;
+	background: url('../images/Colombia4.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#text1 {
+	height: 100%;
+	width: 45%;
+	float: right;
+	
+}
+
+#image2 {
+	height: 100%;
+	width: 45%;
+	float: right;
+	background: url('../images/Guatemala4.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#text2 {
+height: 100%;
+	width: 45%;
+	float: left;
+	
+}
+
+#image3 {
+	height: 100%;
+	width: 45%;
+	float: left;
+	background: url('../images/Mexico2.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#text3 {
+	height: 100%;
+	width: 45%;
+	float: right;
+	
+}
+
 
 #container {
 	height: 150px;
@@ -242,16 +298,7 @@ p {
     1px 1px 0 #000;  
 }
 
-#text {
-	font-size: 50px;
-	font-family: 'Fjalla One', sans-serif;
-	color: #fff;
-	text-shadow:
-    -2px -2px 0 #000,
-    2px -2px 0 #000,
-    -2px 2px 0 #000,
-    2px 2px 0 #000;  
-}
+
 
 #smallerheader {
 	font-size: 45px;
