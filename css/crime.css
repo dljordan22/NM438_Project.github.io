@@ -91,6 +91,7 @@ body {
     color:white;
     text-align:center;
     font-weight: 100;
+     text-shadow: 3px 2px 1px #000;
 }
 
 /* text container */
@@ -105,12 +106,13 @@ body {
 }
 
 p {
-    font-size:2em;
+    font-size:1.5em;
     font-family: Helvetica, AvenirRoman, arial, futura;
     color: #fff;
     text-align: center;
     /*line-height: 1.1em;*/
     font-weight: 100;
+     text-shadow: 3px 2px 1px #000;
 }
 
 #myVideo {

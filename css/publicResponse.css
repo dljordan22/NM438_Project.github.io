@@ -91,6 +91,7 @@ body {
     color:white;
     text-align:center;
     font-weight: 100;
+     text-shadow: 3px 2px 1px #000;
 }
 
 /* text container */
@@ -111,6 +112,7 @@ p {
     text-align: center;
     /*line-height: 1.1em;*/
     font-weight: 100;
+     text-shadow: 3px 2px 1px #000;
 }
 
 #myVideo {
