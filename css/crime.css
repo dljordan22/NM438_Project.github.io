@@ -61,6 +61,19 @@ body {
     -webkit-animation: fadein linear .3s;
 }
 
+/*.statement {
+    font-family: Helvetica, AvenirRoman, arial, futura;
+    z-index:1;
+    position:relative;
+    width:70%;
+    top:1em;
+    margin-right:auto;
+    margin-left:auto;
+    outline: .2em solid #333333;
+    padding:1.5em;
+    background-color: #a5bf9b
+}*/
+
 #enterheader {
     font-family: Helvetica, AvenirRoman, arial, futura;
     position:relative;
@@ -71,6 +84,8 @@ body {
     width:100%;
     padding:0em;
     background-color: transparent;
+
+
     
 }
 
@@ -106,13 +121,24 @@ body {
 }
 
 p {
-    font-size:1.5em;
+ /* font-family: Helvetica, AvenirRoman, arial, futura;
+    z-index:1;
+    position:relative;
+    width:70%;
+    top:1em;
+    margin-right:auto;
+    margin-left:auto;
+    outline: .2em solid #333333;
+    padding:1.5em;
+    background-color: #a5bf9b
+    opacity: .8;*/
+     font-size: 1.8em;
     font-family: Helvetica, AvenirRoman, arial, futura;
-    color: #fff;
+    color: #000;
     text-align: center;
     /*line-height: 1.1em;*/
-    font-weight: 100;
-     text-shadow: 3px 2px 1px #000;
+   font-weight: 500;
+    /* text-shadow: 3px 2px 1px #fff;*/
 }
 
 #myVideo {
@@ -150,6 +176,21 @@ p {
 
 }
 
+#color {
+	font-family: Helvetica, AvenirRoman, arial, futura;
+    z-index:1;
+    position:relative;
+    width: 90%
+    height: 90%;
+    /*top:1em;*/
+    margin-right:auto;
+    margin-left:auto;
+    outline: .2em solid #333333;
+    padding:1.5em;
+    background-color: #a5bf9b;
+    opacity: .8;
+}
+
 #image1 {
 	height: 100%;
 	width: 45%;
@@ -157,12 +198,29 @@ p {
 	background: url('../images/Colombia4.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
+	outline: .2em solid #333333;
 }
 
 #text1 {
-	height: 100%;
+
+	font-family: Helvetica, AvenirRoman, arial, futura;
+    z-index:1;
+    position:relative;
+    width: 45%;
+    height: 90%;
+    /*top:1em;*/
+    margin-right:auto;
+    margin-left:auto;
+    outline: .2em solid #333333;
+    padding:1.5em;
+    background-color: #a5bf9b;
+    opacity: .8;
+    /*opacity: .8;*/
+    float: right;
+
+	/*height: 100%;
 	width: 45%;
-	float: right;
+	float: right;*/
 	
 }
 
@@ -173,12 +231,28 @@ p {
 	background: url('../images/Guatemala4.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
+	 outline: .2em solid #333333;
 }
 
 #text2 {
-height: 100%;
+	font-family: Helvetica, AvenirRoman, arial, futura;
+    z-index:1;
+    position:relative;
+    width: 45%;
+    height: 90%;
+    /*top:1em;*/
+    margin-right:auto;
+    margin-left:auto;
+    outline: .2em solid #333333;
+    padding:1.5em;
+    background-color: #a5bf9b;
+    opacity: .8;
+    /*opacity: .8;*/
+    float: left;
+
+/*height: 100%;
 	width: 45%;
-	float: left;
+	float: left;*/
 	
 }
 
@@ -189,12 +263,28 @@ height: 100%;
 	background: url('../images/Mexico2.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
+	 outline: .2em solid #333333;
 }
 
 #text3 {
-	height: 100%;
+	font-family: Helvetica, AvenirRoman, arial, futura;
+    z-index:1;
+    position:relative;
+    width: 45%;
+    height: 90%;
+    /*top:1em;*/
+    margin-right:auto;
+    margin-left:auto;
+    outline: .2em solid #333333;
+    padding:1.5em;
+    background-color: #a5bf9b;
+    opacity: .8;
+    /*opacity: .8;*/
+    float: right;
+
+   /* height: 100%;
 	width: 45%;
-	float: right;
+	float: right;*/
 	
 }
 
