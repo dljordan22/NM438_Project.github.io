@@ -27,7 +27,7 @@ html {
 body {
     height:100%;
     width:100%;
-	background: #c5cec2;
+	background: #a5bf9b;
 	margin: 0px auto;
 }
 
@@ -66,7 +66,7 @@ body {
     z-index:1;
     margin-left: auto;
     margin-right:auto;
-    height:25%;
+    height:20%;
     width:100%;
     padding:0em;
     background-color: transparent;
@@ -82,6 +82,7 @@ body {
     margin-right:auto;
     color: transparent;
     font-size:1.5em;
+    font-weight:700;
     line-height:1em;
     padding-top:1em;
     padding-bottom:1em;
@@ -89,7 +90,7 @@ body {
     background-color: transparent;
     color:white;
     text-align:center;
-    font-weight: 100;
+    text-shadow: 1px 1px 13px #000;
 }
 
 /* text container */
@@ -98,7 +99,7 @@ body {
     z-index:1;
     position:relative;
     width:70%;
-    top:3em;
+    top:20%;
     margin-right:auto;
     margin-left:auto;
 }
@@ -110,6 +111,7 @@ p {
     text-align: center;
     /*line-height: 1.1em;*/
     font-weight: 100;
+    
 }
 
 /* MAP PARTS */
@@ -163,26 +165,30 @@ svg {
 }
             
 .land:hover {
-    fill: #FF0000;
+    fill: #d8d352;
     cursor:pointer;
 }
 
 /* MAP POP UP PARTS*/
 
+::-webkit-scrollbar{
+    display:none;
+}
+
 .modal-container {
     position:fixed;
-    background-color: indianred;
+    background-color: #a5bf9b;
     left:50%;
-    padding:20px;
-    border-radius: 5px;
+    padding:2em;
+    border-radius: .7em;
     width:50%;
     max-width: 35em;
-    -webkit-transform: translate(-50%, -300%);
-    -ms-transform: translate(-50%, -300%);
-    transform: translate(-50%, -300%);
-    
+    -webkit-transform: translate(-50%, -500%);
+    -ms-transform: translate(-50%, -500%);
+    transform: translate(-50%, -500%);
     -webkit-transition: -webkit-transform 200ms ease-out;
     transition: transform 200ms ease-out;
+    overflow-y:scroll;
 }
 
 .modal:before {
@@ -194,6 +200,7 @@ svg {
     left:0;
     height: 100%;
     width: 100%;
+    overflow:hidden;
 }
 
 .modal:target:before {
@@ -216,7 +223,7 @@ svg {
 #head {
 	height: 100%;
 	width: 100%;
-	background: #c5cec2;
+	background: #a5bf9b;
 	margin: 0px auto;
 }
 

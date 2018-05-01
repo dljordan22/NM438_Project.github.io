@@ -27,7 +27,7 @@ html {
 body {
     height:100%;
     width:100%;
-	background: #c5cec2;
+	background: #a5bf9b;
 	margin: 0px auto;
 }
 
@@ -82,6 +82,7 @@ body {
     margin-right:auto;
     color: transparent;
     font-size:1.5em;
+    font-weight:700;
     line-height:1em;
     padding-top:1em;
     padding-bottom:1em;
@@ -89,7 +90,7 @@ body {
     background-color: transparent;
     color:white;
     text-align:center;
-    font-weight: 100;
+    text-shadow: 1px 1px 13px #000;
 }
 
 /* text container */
@@ -117,7 +118,7 @@ p {
 #head {
 	height: 650px;
 	width: 100%;
-	background: #c5cec2;
+	background: #a5bf9b;
 	margin: 0px auto;
 }
 
