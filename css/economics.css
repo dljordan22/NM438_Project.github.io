@@ -61,7 +61,7 @@ body {
     -webkit-animation: fadein linear .3s;
 }
 
-#enterheader {
+#content {
     font-family: Helvetica, AvenirRoman, arial, futura;
     position:relative;
     z-index:1;
