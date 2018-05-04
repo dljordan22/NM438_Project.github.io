@@ -152,10 +152,38 @@ p {
 	/*background: #888;*/
 }
 
+#thetop {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background: inherit;
+}
+
+#button1 {
+    display: inline;
+    background-color: #a5bf9b;
+    height: 100px;
+    width: 200px;
+    -webkit-border-radius: 28;
+ /* -moz-border-radius: 28;*/
+ border-style: solid;
+  border-radius: 28px;
+  box-shadow: 3px 2px 1px #9daef5;;
+text-shadow: 3px 2px 1px #9daef5;
+/*  -webkit-box-shadow: 6px 5px 24px #666666;
+  -moz-box-shadow: 6px 5px 24px #666666;
+  /*box-shadow: 6px 5px 24px #666666;*/
+font-family: Arial;
+  color: #fafafa;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 1em;
+}
+
 #textplusimage {
 	height: 30em;
 	width: 75em;
-
+	margin-left: -5%;
 }
 
 #color {
